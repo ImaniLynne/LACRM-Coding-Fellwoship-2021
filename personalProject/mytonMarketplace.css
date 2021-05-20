@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 239, 209);
+    background-color: rgba(248, 235, 175, 0.89);
     /* font-family:  */
 }
 * {
@@ -38,4 +38,12 @@ body{
       
       tr:nth-child(even) {
         background-color: #dddddd;
+      }
+      #headerImage{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 30px 30px 30px 0;
+        float: left;
+        display: block;
       }
