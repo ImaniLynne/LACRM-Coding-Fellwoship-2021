@@ -1,3 +1,102 @@
 body{
     background-color: #2e1194e3;
 }
+  
+#plantPic{
+    width: 500px; 
+    height: 333px;
+}
+
+  .column {
+    float: left;
+    width: 11.11%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+#welcome{
+    text-align: right;
+    color: rgba(14, 12, 12, 0.438);
+  }
+
+  table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+  }
+      
+  td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+ }
+      
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #headerImage{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 30px 30px 30px 0;
+    float: left;
+    display: block;
+  }
+/* 
+      @media only screen(max-width:400;){
+          .LargeText {
+            color:red;
+          }
+      } */
+
+
+header {
+  background:#EEE;display:flex;justify-content:space-between;
+}
+
+.logo {
+  font-size:2em;line-height:50px;padding:0 0.5em;
+}
+
+.hamburger {
+  padding:0 0.5em;font-size:1.5em;line-height:50px;display:inline-block;z-index:2;
+}
+
+nav {
+  position:absolute;width:100%;background:#eee;display:none;
+}
+
+nav:hover {
+  display:block;
+}
+
+nav a {
+  display:block;line-height:50px;text-align:center;
+}
+
+.hamburger:hover ~ nav {
+  display:block;
+}
+
+@media only screen and ( min-width: 768px )
+{
+  .hamburger {
+    display:none;
+  }
+  nav {
+    position:static;display:flex;background:none;clear:none;flex:1;justify-content:flex-end;
+  }
+  nav:hover {
+    display:flex;
+  }
+  nav a {
+    padding:0 1em;
+  }
+}
