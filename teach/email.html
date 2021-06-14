@@ -1,3 +1,50 @@
-<this file exists inside my new branch>
+<!--//task list
+//submitButton
+
+//vanilla js 
+//the DOM
+
+use html create the box and button
+
+make a funtion
+    get the value that the user inputs
+    validate the information
+        make sure certain things are present (@ sign)
+
+call funtion when the user presses submit
+-->
+<html>
+<head>
+    <title>Email Validation</title>
+    <script>
+        function validate(){
+            let email = document.getElementById("email").value;
+            
+            if(email == ""){
+                alert("Email Required");
+
+            }else if(!email.includes("@")){
+                alert("Email requires @ symbol");
+
+            }else if(!email.includes(".com")){
+                alert("Oops domain missing");
+
+            }else{
+                alert("Email Valid");
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <form>
+        <input id= "email" placeholder="Email" type="text">
+        <button onClick ="validate()" type ="button">Submit</button>
+    </form>
+</body>
+</html>
+
+
     
-</this>
+
+
