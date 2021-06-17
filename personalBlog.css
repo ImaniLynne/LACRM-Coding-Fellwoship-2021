@@ -25,7 +25,7 @@ h1, p {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1:hover {
-  background: -webkit-linear-gradient( green, lime);
+  background: -webkit-linear-gradient( rgb(250, 234, 11), rgb(255, 239, 12));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
