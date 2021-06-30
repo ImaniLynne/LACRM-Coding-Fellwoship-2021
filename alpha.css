@@ -1,0 +1,20 @@
+#gallery {
+    line-height:0;
+    -webkit-column-count:5;
+    -webkit-column-gap:5px;
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:5;
+    column-gap:5px;
+    row-gap: 5px;
+    grid-row-start:5;
+
+ }
+#gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom:5px; /* to match column gap */
+ }
+ #gallery img:hover {
+    filter:grayscale();
+ }
