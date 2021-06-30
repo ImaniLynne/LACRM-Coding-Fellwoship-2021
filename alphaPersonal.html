@@ -1,57 +1,123 @@
 
-    <link rel="stylesheet" href="alpha.css">
+    <link rel="stylesheet" href="betaStyle.css">
 
-<div class="gallery">
+<!-- <div class="gallery">
     <!-- <a target="_blank" href="img_5terre.jpg"> -->
-      <img src="images/stock6.jpeg" alt="Cinque Terre" width="600" height="400">
+      <!-- <img src="images/stock6.jpeg" alt="Cinque Terre" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
   
-  <div class="gallery">
+  <div class="gallery"> -->
     <!-- <a target="_blank" href="img_forest.jpg"> -->
-      <img src="images/stock7.jpeg" alt="Forest" width="600" height="400">
+      <!-- <img src="images/stock7.jpeg" alt="Forest" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
   
-  <div class="gallery">
+  <div class="gallery"> -->
     <!-- <a target="_blank" href="img_lights.jpg"> -->
-      <img src="images/stock8.jpeg" alt="Northern Lights" width="600" height="400">
+      <!-- <img src="images/stock8.jpeg" alt="Northern Lights" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
   
-  <div class="gallery">
+  <div class="gallery"> -->
     <!-- <a target="_blank" href="img_mountains.jpg"> -->
-      <img src="images/stocj9.jpeg" alt="Mountains" width="500" height="333">
+      <!-- <img src="images/stocj9.jpeg" alt="Mountains" width="500" height="333">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
-  <div class="gallery">
+  <div class="gallery"> -->
     <!-- <a target="_blank" href="img_5terre.jpg"> -->
-      <img src="images/stock6.jpeg" alt="Cinque Terre" width="600" height="400">
+      <!-- <img src="images/stock6.jpeg" alt="Cinque Terre" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
   
-  <div class="gallery">
+  <div class="gallery"> -->
     <!-- <a target="_blank" href="img_forest.jpg"> -->
-      <img src="images/stock7.jpeg" alt="Forest" width="600" height="400">
+      <!-- <img src="images/stock7.jpeg" alt="Forest" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
   
-  <div class="gallery">
+  <div class="gallery"> -->
     <!-- <a target="_blank" href="img_lights.jpg"> -->
-      <img src="images/stock8.jpeg" alt="Northern Lights" width="600" height="400">
+      <!-- <img src="images/stock8.jpeg" alt="Northern Lights" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
   
-  <div class="gallery">
+  <div class="gallery"> -->
     <!-- <a target="_blank" href="img_mountains.jpg"> -->
-      <img src="images/stocj9.jpeg" alt="Mountains" width="500" height="333">
+      <!-- <img src="images/stocj9.jpeg" alt="Mountains" width="500" height="333">
     </a>
     <div class="desc">Add a description of the image here</div>
+  </div> -->
+
+  <div class="header">
+      <h1>Photo Grid</h1>
+      <p>boxes will not be uniform</p>
+  </div>
+
+  <div class="row">
+      <div class="column">
+        <img src="images/smile3.jpg" style="widh:100%">
+        <img src="images/stock1.jpeg" style="widh:100%">
+        <img src="images/stock2.jpeg" style="widh:100%">
+        <img src="images/stock3.jpeg" style="widh:100%">
+        <img src="images/stock4.jpeg" style="widh:100%">
+        <img src="images/stock5.jpeg" style="widh:100%">
+        <img src="images/stock6.jpeg" style="widh:100%">
+
+        <style>
+            {
+              box-sizing: border-box;
+            }
+            
+            body {
+              margin: 0;
+              font-family: Arial;
+            }
+            
+            .header {
+              text-align: center;
+              padding: 32px;
+            }
+            
+            .row {
+              display: flex;
+              flex-wrap: wrap;
+              padding: 0 4px;
+            }
+            
+            /* Create four equal columns that sits next to each other */
+            .column {
+              flex: 25%;
+              max-width: 25%;
+              padding: 0 4px;
+            }
+            
+            .column img {
+              margin-top: 8px;
+              vertical-align: middle;
+            }
+            
+            /* Responsive layout - makes a two column-layout instead of four columns */
+            @media (max-width: 800px) {
+              .column {
+                flex: 50%;
+                max-width: 50%;
+              }
+            }
+            
+            /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+            @media (max-width: 600px) {
+              .column {
+                flex: 100%;
+                max-width: 100%;
+              }
+            }
+            </style>
   </div>
