@@ -1,11 +1,14 @@
-body{
+body {
     background-color: peachpuff;
+    /* background-image: url(https://unsplash.com/photos/YwPNWDNZHkg);
+    background-size: cover;
+    background-repeat: no-repeat; */
 }
   
 /* bluring the image */
-.gfg {
+/* .gfg {
   filter: blur(5px);
-  width: 100%;
+  width: 100%; */
 }
         
 /* designing title and tag line */
@@ -81,6 +84,7 @@ header {
   margin-top: 20px;
 }
 
+/* effects previousWorkPage */
 body {
   font-family: Arial;
   margin: 0;
@@ -155,3 +159,8 @@ body {
     flex-direction: column;
   }
 }
+
+/* .container {
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
